@@ -1,13 +1,30 @@
+main {
+  position: relative;
+}
+
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
+.perspectiveBg {
+    position: fixed;
+    height: 40vh;
+    bottom: 0;
+    background-color: hsl(195deg, 20%, 86%);
+    right: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+
 .maxWidthWrapper {
+
 }
 
 .header {
   padding-bottom: 64px;
+  max-width: 65%;
 }
 
 .title {
@@ -24,7 +41,9 @@
 }
 
 .characterWrapper {
+  position: relative;
 }
 
 .controlColumn {
+  max-width: 50%;
 }
